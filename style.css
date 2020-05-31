@@ -1,0 +1,237 @@
+.bgimage{
+    background-image: url('13.jpeg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+.headerset{
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+.headerset h2{
+font-size: 42px;
+}
+.headerset .color-change{
+animation: colorchangedanish 1s infinite;
+}
+@keyframes colorchangedanish{
+    0%{color: yellow;}
+    25%{color: purple;}
+    50%{color: white;}
+    100%{color: purple;}
+}
+.headerset h1{
+    font-size: 82px;
+    font-weight: bold;
+
+}
+/*...................our services ...........................        */
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin: 80px 0px !important;
+}
+.imgsetting{
+border-radius: 50%;
+height: 100px;
+width: 100px;
+}
+.fa-shopping-cart{
+margin-top: 20px;
+}
+.fa-lock{
+    margin-top: 25px;
+}
+.fa-desktop{
+    margin-top: 26px;
+}
+.rowsetting p{
+    padding: 10px;
+    color: #6c757d!important;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* ////////////////portfolio///////////*/
+
+.portfolio{
+
+    height: 960px;
+    width:100%;
+    padding: 100px 0px 50px;
+
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+
+
+/*----------------our team--------------------- */
+.ourteam{
+height: 700px;
+width: 100%;
+padding: 100px 0px 60px;
+}
+.ourteam .figure img{
+    width: 250px;
+    height: 250px;
+}
+.teamsetting{
+    margin-top: 70px !important;
+}
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+/* ------footer-------*/
+
+.footer{
+    height: 50px;
+    margin-top: 70px;
+}
+.footer h5{
+    line-height: 40px;
+}
+
+
+
+/* ------media query-------*/
+
+
+
+
+/*---laptop and disktop------*/
+@media (min-width: 1200px){
+
+}
+@media (min-width: 991px){
+    .headerset h1{
+        font-size: 55px;
+    } 
+}
+
+/*---tablet landscape lo resolation desktop------*/
+@media (max-width: 990px){
+    .headerset h1{
+        font-size: 55px;
+    } 
+    .ourservices h2{
+        font-size: 20px;
+    }
+    .ourservices{
+        height: 790px;
+
+    }
+    .portfolio{
+
+        height: 1100px;
+    }
+}
+
+
+/*----portrate tablet-----*/
+@media (max-width: 800px){
+    .headerset h1{
+        font-size: 35px;
+    } 
+    .headerset h2{
+        font-size: 32px;
+        }
+        .ourservices{
+            height: 1000px;
+
+        }
+        .portfolio{
+
+            height: 2950px;
+        }
+        .ourteam h1{
+            font-size: 40px;
+        }
+        .ourteam{
+            height: 800px;
+        }
+}
+
+/*----smartphone android-----*/
+@media (max-width: 600px){
+    .ourservices{
+        height: 1200px;
+
+    }
+    .ourteam{
+        height: 1300px;
+    }
+}
+
+
+/*----portrate iphone-----*/
+@media (max-width: 480px){
+    .headerset h1{
+        font-size: 33px;
+    } 
+    .headerset h2{
+        font-size: 25px;
+        }
+        .ourservices{
+            height: 1300px;
+
+        }
+        .ourteam{
+            height: 1400px;
+        }
+        .ourteam h1{
+            font-size: 30px;
+        }
+        .portfolio{
+
+            height: 2500px;
+        }
+        @media (max-width: 480px){
+            .ourservices{
+                height: 1450px;
+    
+            }
+            .ourteam{
+                height: 1500px;
+            }
+
+        }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
